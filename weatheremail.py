@@ -18,12 +18,12 @@ for person in people:
 
 api_key = input("Enter API KEY")
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
-
+complete_url = base_url + "appid=" + api_key + "&q=" + city_name
 for person in people:
 	print('\n')
 	print("OUTPUT FOR ",person[0])
 	city_name = person[1]
-	complete_url = base_url + "appid=" + api_key + "&q=" + city_name
+	
 # get method of requests module
 # return response object
 	response = requests.get(complete_url)
