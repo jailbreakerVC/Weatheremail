@@ -11,7 +11,7 @@ password=getpass.getpass('Password pls')
 print(smtp_object.login(email,password))
 from_address=input("Enter From Address")
 
-people=[["name","City","Emailaddress@email.com]]
+people=[["name","City","Emailaddress@email.com"]]
 #person[0],"lives in ",person[1],"email id is",person[2])
 
 api_key = input("Enter API KEY")
