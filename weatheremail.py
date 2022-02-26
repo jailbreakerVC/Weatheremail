@@ -32,7 +32,7 @@ for person in people:
 		values =str(weather_description)+"  temp="+str(celcius)+"  humidity="+str(current_humidity)
 		#print("WEATHER: \n the Temperature is: \n",str(celcius),"The pressure is \n",str(current_pressure),"\nThe temperature is \n",str(current_humidity),"\nDescription of weather \n",str(weather_description))
 	else:
-		print("City Not Found ")
+		#print("City Not Found ")
 		values="City not found"
 	
 	to_address=person[2]
